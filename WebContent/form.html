@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>입력양식</title>
+</head>
+<body>
+	<h1>입력 양식 예</h1>
+	<form enctype="multipart/form_data">
+		<fieldset>
+			<legend>로그인</legend>
+			<lable>이름: <input type="text"></lable>
+			<br>
+			<lable for="pw">비밀번호: </lable>
+			123456798 <input type="password" id=pw><br> 
+			웹 주소: <input type="search"><br> 
+			이메일: <input type="email"><br>
+			전화번호: <input type="tel"><br>
+			좋아하는 과일: <input type="radio" name="fruits" value="사과">사과
+			 <input type="radio" name="fruits" value="포도" checked>포도 
+			 <input type="radio" name="fruits" value="오렌지">오렌지 
+			 <input type="radio" name="fruits" value="바나나">바나나 <br>
+			좋아하는 색깔: <input type="checkbox" name="color" value="red">빨강
+			<input type="checkbox" name="color" value="파랑">파랑<br>
+			나이: <input type="number"><br>
+			점수: <input type="range" min="0" max="100" step="5"><br>
+			기념일: <input type="date"><br>
+			약속시간: <input type="time"><br>
+			파일: <input type="file"><br>
+			숨긴 파라미터 <input type="hidden" value="hello"><br>
+			<textarea row="5" cols="50">여러 라인을 입력할수 있도록</textarea>
+			<datalist id="abc">
+			<option>클래스다이어그램</option>
+			<option>속성과 연산</option>
+			</datalist>
+			<input type="submit" value="전송"><input type="reset" value="초기화">
+		</fieldset>
+	</form>
+</body>
+</html>
