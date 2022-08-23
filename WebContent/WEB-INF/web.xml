@@ -9,4 +9,11 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <context-param>
+  	<param-name>email</param-name>
+  	<param-value>dudtj@gmail.com</param-value>
+  </context-param>
+  <session-config>
+  	<session-timeout>20</session-timeout>
+  </session-config>
 </web-app>
